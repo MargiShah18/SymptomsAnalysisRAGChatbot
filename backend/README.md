@@ -13,7 +13,7 @@ This project implements a RAG (Retrieval-Augmented Generation) chatbot using **F
 ## 🛠️ Installation
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/MargiShah18/Medical_Chat_deploy.git
+git clone https://github.com/MargiShah18/RAG_CHATBOT_FINAL.git
 
 
 ### 2️⃣ Navigate to the Backend Directory
