@@ -78,10 +78,10 @@ if __name__ == '__main__':
     process_existing_files(UPLOAD_FOLDER)
     
     # Start the file watcher
-    observer = setup_file_watcher(UPLOAD_FOLDER)
+    #observer = setup_file_watcher(UPLOAD_FOLDER)
     try:
         # Start the Flask app
-        app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 5001)))
+        app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
     finally:
         observer.stop()
         observer.join()
