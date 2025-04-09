@@ -3,8 +3,7 @@
 import os
 from PyPDF2 import PdfReader
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.schema import SystemMessage, HumanMessage
 from pinecone import Pinecone, ServerlessSpec
 from langchain_pinecone import Pinecone as LangchainPinecone
