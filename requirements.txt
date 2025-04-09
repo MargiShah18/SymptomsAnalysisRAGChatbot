@@ -25,14 +25,14 @@ jsonpointer==3.0.0
 langchain
 langchain-community
 langchain-core==0.1.53
-langchain-openai==0.0.8
+langchain-openai
 langchain-pinecone==0.0.3
 MarkupSafe==3.0.2
 marshmallow==3.26.1
 multidict==6.3.2
 mypy-extensions==1.0.0
 numpy==1.26.4
-openai==0.28.1
+openai
 orjson==3.10.16
 packaging==23.2
 pinecone-client==3.0.2
