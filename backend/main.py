@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
-from app import (
+from backend.app import (
     process_and_store_file,
     augment_prompt,
     generate_response,
